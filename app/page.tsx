@@ -400,8 +400,8 @@ export default function HomePage() {
       {/* NAVIGATION HEADER */}
       <header
         className={`w-full transition-all duration-300 z-40 sticky top-0 bg-white/95 backdrop-blur-md border-b border-gray-100 ${scrolled
-            ? "shadow-md py-3"
-            : "py-4.5"
+          ? "shadow-md py-3"
+          : "py-4.5"
           }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
@@ -561,8 +561,8 @@ export default function HomePage() {
                       key={bhk}
                       onClick={() => setHeroBhk(bhk)}
                       className={`py-2 px-3 border rounded-lg text-xs font-bold transition-all ${heroBhk === bhk
-                          ? "border-primary bg-red-50/50 text-primary"
-                          : "border-gray-200 hover:border-gray-300 text-slate-600"
+                        ? "border-primary bg-red-50/50 text-primary"
+                        : "border-gray-200 hover:border-gray-300 text-slate-600"
                         }`}
                     >
                       {bhk}
@@ -1266,8 +1266,8 @@ export default function HomePage() {
                 key={tab}
                 onClick={() => setActiveGalleryTab(tab as any)}
                 className={`py-2 px-5 rounded-full text-xs font-bold transition-all ${activeGalleryTab === tab
-                    ? "bg-slate-900 text-white shadow-sm"
-                    : "bg-slate-100 hover:bg-slate-200 text-slate-600"
+                  ? "bg-slate-900 text-white shadow-sm"
+                  : "bg-slate-100 hover:bg-slate-200 text-slate-600"
                   }`}
               >
                 {tab}
@@ -1738,7 +1738,7 @@ export default function HomePage() {
             {/* Column 1 */}
             <div className="col-span-2 flex flex-col gap-4">
               <span className="text-xl font-black tracking-tight text-white flex items-center">
-                LIVSPACE<span className="text-primary font-bold">.</span>
+                DUMMYLOGO<span className="text-primary font-bold">.</span>
               </span>
               <p className="text-xs text-slate-500 leading-relaxed max-w-sm">
                 Livspace is India&apos;s leading end-to-end home interior platform, designing and executing dream homes across 40+ cities. High-end finishes, German manufacturing, and flat 10-year warranty.
@@ -1867,8 +1867,8 @@ export default function HomePage() {
                           key={bhk}
                           onClick={() => setModalFormData({ ...modalFormData, bhk })}
                           className={`p-3 border rounded-xl text-left transition-all ${modalFormData.bhk === bhk
-                              ? "border-primary bg-red-50/50 text-primary font-bold shadow-sm"
-                              : "border-slate-200 hover:border-slate-300 text-slate-600"
+                            ? "border-primary bg-red-50/50 text-primary font-bold shadow-sm"
+                            : "border-slate-200 hover:border-slate-300 text-slate-600"
                             }`}
                         >
                           {bhk}
@@ -1907,8 +1907,8 @@ export default function HomePage() {
                           key={style.title}
                           onClick={() => setModalFormData({ ...modalFormData, budget: style.title })}
                           className={`w-full p-3 border rounded-xl text-left transition-all ${modalFormData.budget === style.title
-                              ? "border-primary bg-red-50/50 text-primary font-bold"
-                              : "border-slate-200 hover:border-slate-300 text-slate-600"
+                            ? "border-primary bg-red-50/50 text-primary font-bold"
+                            : "border-slate-200 hover:border-slate-300 text-slate-600"
                             }`}
                         >
                           <p className="text-xs uppercase font-bold">{style.title}</p>
